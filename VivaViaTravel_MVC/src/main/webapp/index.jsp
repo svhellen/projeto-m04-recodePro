@@ -112,19 +112,8 @@ header .carousel-caption {
 }
 </style>
 </head>
-<body>
+<body class="sitePrincipal">
 	<header class="row">
-		<!-- navbar -->
-		<%-- 			<jsp:include page="./components/nav.jsp">
-				<jsp:param name="logo" value="assets/img/teste-logo.png"/>
-				<jsp:param name="home" value="./index.jsp"/>
-				<jsp:param name="hospedagens" value="views/_pages/hospedagens.jsp"/>
-				<jsp:param name="passagens" value="views/_pages/passagens.jsp"/>
-				<jsp:param name="destinos" value="views/_pages/destinos.jsp"/>
-				<jsp:param name="promocoes" value="views/_pages/promocoes.jsp"/>
-				<jsp:param name="contato" value="views/_pages/contato.jsp"/>
-				<jsp:param name="btnCrud" value="cliente"/>
-			</jsp:include> --%>
 		<!-- navbar -->
 		<jsp:include page="./components/nav.jsp">
 			<jsp:param name="logo" value="assets/img/teste-logo.png" />
@@ -161,19 +150,19 @@ header .carousel-caption {
 				</div>
 				<div class="carousel-item" id="item2">
 					<div class="carousel-caption d-block">
-						<!-- <h1 class=" display-3">Descubra o Mundo</h1>
-						<h1 class=" display-3">Abrace a Jornada</h1> -->
-						<h1 class=" display-3">Descubra destinos deslumbrantes e
-							experiências únicas.</h1>
+						<h1 class=" display-3">Descubra o Mundo</h1>
+						 <h1 class=" display-3">Abrace a Jornada</h1> 
+						<!--<h1 class=" display-3">Descubra destinos deslumbrantes e
+							experiências únicas.</h1>-->
 					</div>
 				</div>
 				<div class="carousel-item" id="item3">
 					<div class="carousel-caption d-block">
-						<!-- <h1 class=" display-3">Descubra o Mundo</h1>
-						<h1 class=" display-3">Abrace a Jornada</h1> -->
-						<h1 class=" display-3">Nossos agentes de viagens estão
+						 <h1 class=" display-3">Descubra o Mundo</h1>
+						<h1 class=" display-3">Abrace a Jornada</h1>
+						<!--<h1 class=" display-3">Nossos agentes de viagens estão
 							prontos para ajudá-lo a encontrar a melhor opção para a sua
-							próxima aventura.</h1>
+							próxima aventura.</h1> -->
 					</div>
 				</div>
 			</div>
@@ -187,7 +176,7 @@ header .carousel-caption {
 				<div>
 					<div class="d-flex justify-content-between" id="ver-mais">
 						<h1>Destinos</h1>
-						<a class="btn" href="destinos.html">Ver mais</a>
+						<a class="btn" href="views/_pages/destinos.jsp">Ver mais</a>
 					</div>
 					<p class=" display-4">Lugares mais procurados do Brasil essa
 						semana.</p>
@@ -228,7 +217,7 @@ header .carousel-caption {
 				<div>
 					<div class="d-flex justify-content-between" id="ver-mais">
 						<h1 class=" ">Hospedagens</h1>
-						<a class="btn" href="hospedagens.html">Ver mais</a>
+						<a class="btn" href="views/_pages/hospedagens.jsp">Ver mais</a>
 					</div>
 					<p class="display-4">Milhares de hotéis para você encontrar o
 						perfeito pras suas férias.</p>
@@ -340,7 +329,7 @@ header .carousel-caption {
 				<div class=" " id="ver-mais">
 					<div class="d-flex justify-content-between">
 						<h1>Passagens Aéreas</h1>
-						<a class="btn" href="passagens.html">Ver mais</a>
+						<a class="btn" href="views/_pages/passagens.jsp">Ver mais</a>
 					</div>
 					<p class="display-4">Compre passagens com um clique.</p>
 				</div>
@@ -445,7 +434,7 @@ header .carousel-caption {
 				<div class=" " id="ver-mais">
 					<div class="d-flex justify-content-between">
 						<h1>Pacotes promocionais</h1>
-						<a class="btn" href="promocoes.html">Ver mais</a>
+						<a class="btn" href="views/_pages/promocoes.jsp">Ver mais</a>
 					</div>
 					<p class="display-4">Adquira pacotes com preços incríveis.</p>
 				</div>

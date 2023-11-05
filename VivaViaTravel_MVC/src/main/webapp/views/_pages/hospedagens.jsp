@@ -24,7 +24,7 @@
 	</style>
 </head>
 
-<body>
+<body  class="sitePrincipal">
 	<header class="row">
 		<!-- navbar -->
 		<jsp:include page="../../components/nav.jsp">
@@ -74,7 +74,7 @@
 					<input type="number" min="1" max="8" value="1" class="form-control" id="f-adults">
 				</div>
 				<div class="col">
-					<label for="f-kids">CrianÃ§as</label>
+					<label for="f-kids">Crianças</label>
 					<input type="number" min="0" max="16" value="0" class="form-control" id="f-kids">
 				</div>
 			</div>
@@ -105,8 +105,8 @@
 								</div>
 								<p><i class="bi bi-geo-alt"></i> nomeLocal</p>
 
-								<p class="card-text">Breve descriÃ§Ã£o do hotel.</p>
-								<p>PreÃ§o a partir de <strong>R$ PreÃ§o</strong></p>
+								<p class="card-text">Breve descrição do hotel.</p>
+								<p>Preço a partir de <strong>R$ Preço</strong></p>
 								<a href="em-construcao.html" class=" btn btn-primary d-block">Ver detalhes</a>
 							</div>
 						</div>
@@ -127,7 +127,7 @@
 									</div>
 								</div>
 								<p><i class="bi bi-geo-alt"></i> nomeLocal</p>
-								<p class="card-text">Breve descriÃ§Ã£o do hotel.</p>
+								<p class="card-text">Breve descrição do hotel.</p>
 								<p>PreÃ§o a partir de <strong>R$ PreÃ§o</strong></p>
 								<a href="em-construcao.html" class=" btn btn-primary d-block">Ver detalhes</a>
 							</div>

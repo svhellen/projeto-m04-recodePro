@@ -10,14 +10,16 @@
 
 :root {
     --cor1: #5656ff;
+    --cor2: #5656ff;
     /* --cor2: #4040ff; */
-    --cor2: #51ADE5;
+    /*--cor2: #51ADE5;*/
+    /* --cor2: #5656ff;*/
     /* --cor3: #060638; */
     --cor3: #f3f3f3;
     --cor4: #FFCF00;
     /*--cor5: #47C4E1;*/
     /*--cor5: #4a8bb4;*/
-    --cor5: #7EBCE6;
+    --cor5: #578CFF;
 
     --text-color1: rgba(0, 0, 0, 1);
     --text-color2: rgba(0, 0, 0, 0.7);
@@ -44,7 +46,7 @@ header {
 }
 
 #menu {
-    background-color: #51ADE5 !important;
+    background-color: #5656ff !important;
     border-bottom: 2px solid rgba(255, 255, 255, 0.5);
     padding: 0;
 }
@@ -103,12 +105,12 @@ header {
     padding: 1rem .8rem;
 }
 
-.btn {
+.sitePrincipal .btn {
     background: var(--cor2);
     border: var(--cor2);
 }
 
-.btn:hover {
+.sitePrincipal .btn:hover {
     color: var(--bg-color);
     background: var(--cor5);
     border: var(--cor4);

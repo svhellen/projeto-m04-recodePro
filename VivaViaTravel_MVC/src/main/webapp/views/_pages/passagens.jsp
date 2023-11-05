@@ -15,7 +15,7 @@
 	<link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
 	<title>VivaVia Travel</title>
 </head>
-<body>
+<body class="sitePrincipal">
 	<header class="row">
 		<!-- navbar -->
 		<jsp:include page="../../components/nav.jsp">

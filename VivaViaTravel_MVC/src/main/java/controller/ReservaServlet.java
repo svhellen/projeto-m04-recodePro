@@ -47,9 +47,9 @@ public class ReservaServlet extends HttpServlet {
 		case "/reserva-create":
 			create(request, response);
 			break;
-		case "/reserva-details":
-			details(request, response);
-			break;
+		/*
+		 * case "/reserva-details": details(request, response); break;
+		 */
 		case "/reserva-edit":
 			try {
 				edit(request, response);
@@ -151,24 +151,22 @@ public class ReservaServlet extends HttpServlet {
 		response.sendRedirect("reserva");
 	}
 
-	protected void details(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-
-		int id = Integer.parseInt(request.getParameter("id"));
-
-		try {
-			r = rdao.getById(id);
-			r.getPassagem().getOrigemPassagem();
-			System.out.println(r.getPassagem());
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-
-		request.setAttribute("reserva", r);
-
-		RequestDispatcher rd = request.getRequestDispatcher("./views/reservaCrud/detalhes.jsp");
-		rd.forward(request, response);
-	}
+	/*
+	 * protected void details(HttpServletRequest request, HttpServletResponse
+	 * response) throws ServletException, IOException {
+	 * 
+	 * int id = Integer.parseInt(request.getParameter("id"));
+	 * 
+	 * try { r = rdao.getById(id); r.getPassagem().getOrigemPassagem();
+	 * System.out.println(r.getPassagem()); } catch (Exception e) {
+	 * e.printStackTrace(); }
+	 * 
+	 * request.setAttribute("reserva", r);
+	 * 
+	 * RequestDispatcher rd =
+	 * request.getRequestDispatcher("./views/reservaCrud/detalhes.jsp");
+	 * rd.forward(request, response); }
+	 */
 
 	protected void delete(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {

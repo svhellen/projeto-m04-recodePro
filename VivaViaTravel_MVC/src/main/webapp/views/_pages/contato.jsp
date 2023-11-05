@@ -23,7 +23,7 @@
 	type="image/x-icon">
 <title>VivaVia Travel</title>
 </head>
-<body class=" bg-body-secondary">
+<body class=" bg-body-secondary sitePrincipal">
 	<header class="row">
 		<!-- navbar -->
 		<jsp:include page="../../components/nav.jsp">
@@ -79,7 +79,7 @@
 				<div class="card-body">
 					<h5 class="card-title">Central de Atendimento</h5>
 					<h6 class="card-subtitle mb-2 text-body-secondary"></h6>
-					<p class="card-text">Suporte pÃ³s venda.</p>
+					<p class="card-text">Suporte pós venda.</p>
 					<a href="#" class="card-link">0800 000 0000</a>
 				</div>
 			</div>
@@ -112,14 +112,14 @@
 			<!-- links importantes -->
 			<div class="col-6 col-md-8 mb-3 text-md-end">
 				<ul id="secoes" class="nav pt-5 flex-column flex-md-row ">
-					<li class="nav-item mb-2 col"><a href="em-construcao.html"
+					<li class="nav-item mb-2 col"><a href="#"
 						class="nav-link p-0 ">Blog</a></li>
-					<li class="nav-item mb-2 col"><a href="contato.html"
+					<li class="nav-item mb-2 col"><a href="#"
 						class="nav-link p-0 ">Fale conosco</a></li>
-					<li class="nav-item mb-2 col"><a href="em-construcao.html"
-						class="nav-link p-0  ">PolÃ­tica de privacidade</a></li>
-					<li class="nav-item mb-2 col"><a href="em-construcao.html"
-						class="nav-link p-0  ">Termos & CondiÃ§Ãµes</a></li>
+					<li class="nav-item mb-2 col"><a href="#"
+						class="nav-link p-0  ">Política de privacidade</a></li>
+					<li class="nav-item mb-2 col"><a href="#"
+						class="nav-link p-0  ">Termos & Condições</a></li>
 				</ul>
 			</div>
 			<!-- copyright e social medias -->

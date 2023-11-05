@@ -16,7 +16,7 @@
 	<title>VivaVia Travel</title>
 </head>
 
-<body>
+<body class="sitePrincipal">
 	<header class="row">
 		<!-- navbar -->
 		<jsp:include page="../../components/nav.jsp">

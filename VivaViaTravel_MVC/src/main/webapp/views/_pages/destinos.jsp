@@ -22,7 +22,7 @@
 <title>VivaVia Travel</title>
 </head>
 
-<body>
+<body class="sitePrincipal">
 	<header class="row">
 		<!-- navbar -->
 		<jsp:include page="../../components/nav.jsp">
@@ -116,14 +116,14 @@
 			<!-- links importantes -->
 			<div class="col-6 col-md-8 mb-3 text-md-end">
 				<ul id="secoes" class="nav pt-5 flex-column flex-md-row ">
-					<li class="nav-item mb-2 col"><a href="em-construcao.html"
+					<li class="nav-item mb-2 col"><a href="#"
 						class="nav-link p-0 ">Blog</a></li>
-					<li class="nav-item mb-2 col"><a href="contato.html"
+					<li class="nav-item mb-2 col"><a href="#"
 						class="nav-link p-0 ">Fale conosco</a></li>
-					<li class="nav-item mb-2 col"><a href="em-construcao.html"
-						class="nav-link p-0  ">PolÃ­tica de privacidade</a></li>
-					<li class="nav-item mb-2 col"><a href="em-construcao.html"
-						class="nav-link p-0  ">Termos & CondiÃ§Ãµes</a></li>
+					<li class="nav-item mb-2 col"><a href="#"
+						class="nav-link p-0  ">Política de privacidade</a></li>
+					<li class="nav-item mb-2 col"><a href="#"
+						class="nav-link p-0  ">Termos & Condições</a></li>
 				</ul>
 			</div>
 			<!-- copyright e social medias -->

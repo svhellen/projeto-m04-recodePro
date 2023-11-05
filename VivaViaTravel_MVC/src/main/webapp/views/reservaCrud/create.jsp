@@ -27,9 +27,9 @@
 	<header class="row">
 		<jsp:include page="../../components/headerCrud.jsp">
 			<jsp:param name="pageName" value="Reservas" />
-			<jsp:param name="clientesActive" value="" />
-			<jsp:param name="passagensActive" value="" />
-			<jsp:param name="reservasActive" value="active" />
+			<jsp:param name="clientesActive" value=" " />
+			<jsp:param name="passagensActive" value=" " />
+			<jsp:param name="reservasActive" value=" active" />
 		</jsp:include>
 	</header>
 	<main class=" ">

@@ -82,7 +82,7 @@
 								<div class="modal-footer justify-content-center">
 									<button type="button" class="btn btn-secondary"
 										data-bs-dismiss="modal">Cancelar</button>
-									<button type="submit" class="btn btn-primary">Enviar</button>
+									<button type="submit" class="btn btn-success">Enviar</button>
 									<!-- 		<input type="button" value="Cancelar" class="btn" onclick="../../cliente"> -->
 								</div>
 							</form>
@@ -146,7 +146,7 @@
 											class="btn btn-danger">Excluir</a>--%>
 
 										<!-- MODAL -->
-										<button type="button" class="btn btn-primary"
+										<button type="button" class="btn btn-success"
 											data-bs-toggle="modal"
 											data-bs-target="#exampleModal${passagem.idPassagem}"
 											data-bs-whatever="@editar">Editar</button>
@@ -198,9 +198,9 @@
 																</div>
 															</div>
 															<div class="modal-footer justify-content-center">
-																<button type="submit" class="btn btn-primary">Enviar</button>
 																<button type="button" class="btn btn-secondary"
 																	data-bs-dismiss="modal">Cancelar</button>
+																<button type="submit" class="btn btn-primary">Enviar</button>
 																<!-- 		<input type="button" value="Cancelar" class="btn" onclick="../../cliente"> -->
 															</div>
 														</form>
