@@ -23,7 +23,7 @@
 	type="image/x-icon">
 <title>VivaVia Travel</title>
 </head>
-<body class=" bg-body-secondary">
+<body >
 	<header class="row">
 		<jsp:include page="../../components/headerCrud.jsp">
 			<jsp:param name="pageName" value="Passagens" />
@@ -219,7 +219,11 @@
 			</div>
 		</section>
 	</main>
-	<footer class="py-5 px-3"> </footer>
+	<footer class="py-5 px-3"> 
+		<jsp:include page="../../components/footer.jsp">
+			<jsp:param name="srcLogo" value="./assets/img/logo.png" />
+		</jsp:include>
+	</footer>
 
 	<script src="./assets/js/modal.js"></script>
 

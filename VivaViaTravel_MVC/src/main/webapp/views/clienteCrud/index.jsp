@@ -23,13 +23,13 @@
 	type="image/x-icon">
 <title>VivaVia Travel</title>
 </head>
-<body class=" bg-body-secondary">
+<body class=" ">
 	<header class="row">
 		<jsp:include page="../../components/headerCrud.jsp">
 			<jsp:param name="pageName" value="Clientes" />
-			<jsp:param name="clientesActive" value="active" />
-			<jsp:param name="passagensActive" value="" />
-			<jsp:param name="reservasActive" value="" />
+			<jsp:param name="clientesActive" value=" active" />
+			<jsp:param name="passagensActive" value=" " />
+			<jsp:param name="reservasActive" value=" " />
 		</jsp:include>
 	</header>
 	<main class=" ">
@@ -73,7 +73,11 @@
 		</section>
 
 	</main>
-	<footer class="py-5 px-3"> </footer>
+	<footer class="py-5 px-3">
+		<jsp:include page="../../components/footer.jsp">
+			<jsp:param name="srcLogo" value="./assets/img/logo.png" />
+		</jsp:include>
+	</footer>
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

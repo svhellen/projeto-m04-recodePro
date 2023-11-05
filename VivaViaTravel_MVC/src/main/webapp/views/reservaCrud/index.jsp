@@ -23,7 +23,7 @@
 	type="image/x-icon">
 <title>VivaVia Travel</title>
 </head>
-<body class=" bg-body-secondary">
+<body >
 	<header class="row">
 		<jsp:include page="../../components/headerCrud.jsp">
 			<jsp:param name="pageName" value="Reservas" />
@@ -91,8 +91,8 @@
 									<div class="card-footer">
 										<div class=" text-center">
 											<a href="reserva-edit?id=${reserva.idReserva}"
-												class="btn btn-success">Editar</a> 
-											<a href="reserva-delete?id=${reserva.idReserva}"
+												class="btn btn-success">Editar</a> <a
+												href="reserva-delete?id=${reserva.idReserva}"
 												onclick="return confirm('Deseja Excluir?')"
 												class="btn btn-danger">Excluir</a>
 
@@ -167,7 +167,11 @@
 			<!-- FIM ACCORDION -->
 		</section>
 	</main>
-	<footer class="py-5 px-3"> </footer>
+	<footer class="py-5 px-3">
+		<jsp:include page="../../components/footer.jsp">
+			<jsp:param name="srcLogo" value="./assets/img/logo.png" />
+		</jsp:include>
+	</footer>
 	<script src="./assets/js/modal.js"></script>
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

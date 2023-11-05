@@ -23,7 +23,7 @@
 	type="image/x-icon">
 <title>VivaVia Travel</title>
 </head>
-<body class=" bg-body-secondary">
+<body>
 	<header class="row">
 		<jsp:include page="../../components/headerCrud.jsp">
 			<jsp:param name="pageName" value="Reservas" />
@@ -61,53 +61,16 @@
 					</select>
 				</div>
 				<button type="submit" class="btn btn-primary">Enviar</button>
-				<a class="btn" href="./reserva">Cancelar</a>
+				<a class="btn btn-primary" href="./reserva">Cancelar</a>
 			</form>
 		</div>
 
 		<div class="row text-center gap-3 my-5"></div>
 	</main>
 	<footer class="py-5 px-3">
-		<div class="row">
-			<!-- logo marca -->
-			<div class="col-6 col-md-4 mb-3 text-md-start">
-				<a class="footer-brand " href="#"><img src="/img/logo.png"
-					alt="logo" id="footer-logo"></a>
-				<p>Descubra o Mundo, Abrace a Jornada!</p>
-			</div>
-			<!-- links importantes -->
-			<div class="col-6 col-md-8 mb-3 text-md-end">
-				<ul id="secoes" class="nav pt-5 flex-column flex-md-row ">
-					<li class="nav-item mb-2 col"><a href="em-construcao.html"
-						class="nav-link p-0 ">Blog</a></li>
-					<li class="nav-item mb-2 col"><a href="contato.html"
-						class="nav-link p-0 ">Fale conosco</a></li>
-					<li class="nav-item mb-2 col"><a href="em-construcao.html"
-						class="nav-link p-0  ">PolÃ­tica de privacidade</a></li>
-					<li class="nav-item mb-2 col"><a href="em-construcao.html"
-						class="nav-link p-0  ">Termos & CondiÃ§Ãµes</a></li>
-				</ul>
-			</div>
-			<!-- copyright e social medias -->
-			<div
-				class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-				<p>Â© 2023 VivaVia Travel, Inc. All rights reserved.</p>
-				<div class="social-media list-inline text-md-end">
-					<a class="icon-link icon-link-hover list-inline-item"
-						style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"
-						href="#"> <i class="bi bi-youtube"></i>
-					</a> <a class="icon-link icon-link-hover list-inline-item"
-						style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"
-						href="#"> <i class="bi bi-instagram"></i></a> <a
-						class="icon-link icon-link-hover list-inline-item"
-						style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"
-						href="#"> <i class="bi bi-twitter" aria-hidden="true"></i></a> <a
-						class="icon-link icon-link-hover list-inline-item"
-						style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"
-						href="#"> <i class="bi bi-facebook" aria-hidden="true"></i></a>
-				</div>
-			</div>
-		</div>
+		<jsp:include page="../../components/footer.jsp">
+			<jsp:param name="srcLogo" value="./assets/img/logo.png" />
+		</jsp:include>
 	</footer>
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

@@ -63,7 +63,7 @@
 				<div class="row row-cols g-2 py-3">
 					<div class="col col-lg-6">
 						<div class="card text-bg-dark">
-							<img src="img/cidades/rio-rj.jpg" class="card-img" alt="...">
+							<img src="../../assets/img/cidades/rio-rj.jpg" class="card-img" alt="...">
 							<div class="card-img-overlay">
 								<h4 class="card-title">Rio de Janeiro</h4>
 							</div>
@@ -71,7 +71,7 @@
 					</div>
 					<div class="col col-lg-6">
 						<div class="card text-bg-dark ">
-							<img src="img/cidades/porto-seguro-ba.jpg" class="card-img"
+							<img src="../../assets/img/cidades/porto-seguro-ba.jpg" class="card-img"
 								alt="...">
 							<div class="card-img-overlay">
 								<h4 class="card-title">Porto seguro</h4>
@@ -80,7 +80,7 @@
 					</div>
 					<div class="col col-lg-4">
 						<div class="card text-bg-dark">
-							<img src="img/cidades/recife-pe.jpg" class="card-img" alt="...">
+							<img src="../../assets/img/cidades/recife-pe.jpg" class="card-img" alt="...">
 							<div class="card-img-overlay">
 								<h4 class="card-title">Recife</h4>
 							</div>
@@ -88,7 +88,7 @@
 					</div>
 					<div class="col col-lg-4">
 						<div class="card text-bg-dark">
-							<img src="img/cidades/bh-mg.jpg" class="card-img" alt="...">
+							<img src="../../assets/img/cidades/bh-mg.jpg" class="card-img" alt="...">
 							<div class="card-img-overlay">
 								<h4 class="card-title">Belo Horizonte</h4>
 							</div>
@@ -96,7 +96,7 @@
 					</div>
 					<div class="col col-lg-4">
 						<div class="card text-bg-dark">
-							<img src="img/cidades/sp.jpg" class="card-img" alt="...">
+							<img src="../../assets/img/cidades/sp.jpg" class="card-img" alt="...">
 							<div class="card-img-overlay">
 								<h4 class="card-title">SÃ£o Paulo</h4>
 							</div>

@@ -67,6 +67,11 @@
 			</form>
 		</div>
 	</main>
+	<footer>
+		<jsp:include page="../../components/footer.jsp">
+			<jsp:param name="srcLogo" value="./assets/img/logo.png" />
+		</jsp:include>
+	</footer>
 	<script src="scripts/validador.js"></script>
 </body>
 </html>

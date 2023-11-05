@@ -81,6 +81,7 @@ public class ReservaDAO {
 	            reserva.setIdReserva(rset.getInt("id_reserva"));
 	            
 	            cliente = new Cliente();
+	            cliente.setIdCliente(rset.getInt("id_cliente"));
 	            cliente.setNomeCliente(rset.getString("nome_cliente"));
 	            cliente.setEmailCliente(rset.getString("email_cliente"));
 	            cliente.setTelefoneCliente(rset.getString("telefone_cliente"));

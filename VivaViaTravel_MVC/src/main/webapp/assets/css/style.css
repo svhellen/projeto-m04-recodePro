@@ -15,7 +15,9 @@
     /* --cor3: #060638; */
     --cor3: #f3f3f3;
     --cor4: #FFCF00;
-    --cor5: #4a8bb4;
+    /*--cor5: #47C4E1;*/
+    /*--cor5: #4a8bb4;*/
+    --cor5: #7EBCE6;
 
     --text-color1: rgba(0, 0, 0, 1);
     --text-color2: rgba(0, 0, 0, 0.7);
@@ -29,7 +31,7 @@
 
 body {
     font-family: 'Rubik', sans-serif;
-    background-color: var(--bg-color);
+    background-color: var(--bg-color) ;
 }
 
 .icon {
@@ -107,7 +109,7 @@ header {
 }
 
 .btn:hover {
-    color: var(--text-color1);
+    color: var(--bg-color);
     background: var(--cor5);
     border: var(--cor4);
 }
@@ -135,12 +137,26 @@ header {
     border: 1px solid var(--cor4);
 }
 
-.menuCrud {
-    background-color: red !important;
+.menuCrud h1 {
+	color: var(--text-color2);
+    background: var(--cor3) !important;
+    padding: 10px 0;
+    margin: 0;
 }
 
-.menuCrud h1 {
-    background-color: red !important;
+.menuCrud ul {
+    background: var(--cor3);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.menuCrud .nav-item .nav-link {
+	color: var(--text-color3);
+}
+
+.menuCrud .nav-item .active {
+	color: var(--cor2);
+	font-weight: bold;
+    border-bottom: 2px solid var(--cor2);
 }
 
 #carousel-principal {

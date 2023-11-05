@@ -52,7 +52,7 @@
 	<hr>
 </nav>
 
-<div class="row text-center gap-3 m-0 p-0 menuCrud">
+<div class="row text-center m-0 p-0 menuCrud">
 	<!-- <small>crud</small> -->
 	<h1><%=request.getParameter("pageName")%></h1>
 	<ul class="nav justify-content-center ">

@@ -79,7 +79,7 @@
 					<input type="number" min="1" max="8" value="1" class="form-control" id="f-adults">
 				</div>
 				<div class="col">
-					<label for="f-kids">CrianÃ§as</label>
+					<label for="f-kids">Crianças</label>
 					<input type="number" min="0" max="16" value="0" class="form-control" id="f-kids">
 				</div>
 			</div>
@@ -95,7 +95,7 @@
 				<div class="row row-cols g-4 py-3">
 					<div class="col">
 						<div class="card ">
-							<img src="img/cidades/porto-seguro-ba.jpg" class="img-fluid rounded-start" alt="...">
+							<img src="../../assets/img/cidades/porto-seguro-ba.jpg" class="img-fluid rounded-start" alt="...">
 							<div class="card-body">
 								<h5 class="card-title">Passagem para Porto Seguro</h5>
 								<p class="card-subtitle">Classe: EconÃ´mica</p>
@@ -110,7 +110,7 @@
 					</div>
 					<div class="col">
 						<div class="card ">
-							<img src="img/hoteis/ex-3.jpg" class="img-fluid rounded-start" alt="...">
+							<img src="../../assets/img/hoteis/ex-3.jpg" class="img-fluid rounded-start" alt="...">
 							<div class="card-body">
 								<h5 class="card-title">Passagem para Fortaleza</h5>
 								<p class="card-subtitle">Classe: Primeira classe</p>
@@ -125,7 +125,7 @@
 					</div>
 					<div class="col">
 						<div class="card ">
-							<img src="img/hoteis/ex-2.jpg" class="img-fluid rounded-start" alt="...">
+							<img src="../../assets/img/hoteis/ex-2.jpg" class="img-fluid rounded-start" alt="...">
 							<div class="card-body">
 								<h5 class="card-title">Passagem para Rio de Janeiro</h5>
 								<p class="card-subtitle">Classe: EconÃ´mica</p>
@@ -140,7 +140,7 @@
 					</div>
 					<div class="col">
 						<div class="card ">
-							<img src="img/cidades/bh-mg.jpg" class="img-fluid rounded-start" alt="...">
+							<img src="../../assets/img/cidades/bh-mg.jpg" class="img-fluid rounded-start" alt="...">
 							<div class="card-body">
 								<h5 class="card-title">Passagem para Belo horizonte</h5>
 								<p class="card-subtitle">Classe: EconÃ´mica</p>

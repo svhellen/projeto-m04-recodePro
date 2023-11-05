@@ -90,7 +90,7 @@
 				<div class="row row-cols g-4 py-3">
 					<div class="col">
 						<div class="card ">
-							<img src="img/hoteis/hotel-5.jpg" class="card-img-top" alt="...">
+							<img src="../../assets/img/hoteis/hotel-5.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<h5 class="card-title">NomeHotel</h5>
 								<div class="pb-3">
@@ -113,7 +113,7 @@
 					</div>
 					<div class="col">
 						<div class="card">
-							<img src="img/hoteis/hotel-3.jpg" class="card-img-top" alt="...">
+							<img src="../../assets/img/hoteis/hotel-3.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<h5 class="card-title">NomeHotel</h5>
 								<div class="pb-3">
@@ -135,7 +135,7 @@
 					</div>
 					<div class="col">
 						<div class="card">
-							<img src="img/hoteis/hotel-1.jpg" class="card-img-top" alt="...">
+							<img src="../../assets/img/hoteis/hotel-1.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<h5 class="card-title">NomeHotel</h5>
 								<div class="pb-3">
@@ -157,7 +157,7 @@
 					</div>
 					<div class="col">
 						<div class="card">
-							<img src="img/hoteis/hotel-2.jpg" class="card-img-top" alt="...">
+							<img src="../../assets/img/hoteis/hotel-2.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<h5 class="card-title">NomeHotel</h5>
 								<div class="pb-3">

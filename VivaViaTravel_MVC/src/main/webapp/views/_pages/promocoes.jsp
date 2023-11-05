@@ -46,7 +46,7 @@
 				<div class="row row-cols g-4 py-3">
 					<div class="col">
 						<div class="card ">
-							<img src="img/hoteis/ex-2.jpg" class="img-fluid rounded-start" alt="...">
+							<img src="../../assets/img/hoteis/ex-2.jpg" class="img-fluid rounded-start" alt="...">
 							<div class="card-body">
 								<span class="balao-promo position-absolute top-0">-25%</span>
 								<h5 class="card-title">Pacote para Gramado</h5>
@@ -63,7 +63,7 @@
 					</div>
 					<div class="col">
 						<div class="card ">
-							<img src="img/hoteis/ex-6.jpg" class="img-fluid rounded-start" alt="...">
+							<img src="../../assets/img/hoteis/ex-6.jpg" class="img-fluid rounded-start" alt="...">
 							<div class="card-body">
 								<span class="balao-promo position-absolute top-0">-10%</span>
 								<h5 class="card-title">Pacote para SÃ£o Paulo</h5>
@@ -80,7 +80,7 @@
 					</div>
 					<div class="col">
 						<div class="card ">
-							<img src="img/hoteis/ex-7.jpg" class="img-fluid rounded-start" alt="...">
+							<img src="../../assets/img/hoteis/ex-7.jpg" class="img-fluid rounded-start" alt="...">
 							<div class="card-body">
 								<span class="balao-promo position-absolute top-0">-20%</span>
 								<h5 class="card-title">Pacote para Manaus</h5>
@@ -97,7 +97,7 @@
 					</div>
 					<div class="col">
 						<div class="card ">
-							<img src="img/hoteis/hotel-5.jpg" class="img-fluid rounded-start" alt="...">
+							<img src="../../assets/img/hoteis/hotel-5.jpg" class="img-fluid rounded-start" alt="...">
 							<div class="card-body">
 								<span class="balao-promo position-absolute top-0">-5%</span>
 								<h5 class="card-title">Pacote para Recife</h5>
