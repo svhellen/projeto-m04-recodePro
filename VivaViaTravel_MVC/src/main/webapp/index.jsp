@@ -169,8 +169,6 @@ header .carousel-caption {
 		</div>
 	</header>
 	<main>
-
-
 		<div id="" class="container-fluid py-3 my-3 mx-auto">
 			<div id="top-destinos">
 				<div>
